@@ -1,0 +1,95 @@
+html, body {
+    background-color: black;
+    margin: 0;
+    padding: 0 0 20px;
+}
+
+.title {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    widows: 100%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 0 2px;
+}
+
+.input-name,
+.select-photo {
+    border: 0;
+    padding: 5px 10px;
+}
+
+.download {
+    border-radius: 4px;
+    background-color: red;
+    border: 0;
+    color: white;
+    padding: 5px 10px;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.download:active,
+.download:focus {
+    outline: none;
+}
+
+.canvas {
+    background: url(vasco-confirmado.jpg) no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.photo {
+    background: url(talles-magno.jpg) no-repeat center center;
+    background-size: cover;
+    width: 259px;
+    height: 378px;
+    position: absolute;
+    top: 13px;
+    right: 0;
+    color: black;
+    line-height: 378px;
+    text-align: center;
+}
+
+.name {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    top: 400px;
+    left: 248px;
+    max-width: 258px;
+}
+
+.button {
+
+}
